@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Материал",
+  "name": "IISVydokhМатериалE",
+  "className": "МатериалE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-vydokh-материал",
+      "modelProjection": "МатериалE"
+    }
+  ]
+}

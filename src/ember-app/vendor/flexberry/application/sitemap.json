@@ -1,0 +1,36 @@
+﻿{
+  "applicationCaption": "Vydokh",
+  "applicationTitle": "Vydokh",
+  "items": [
+    {
+      "link": null,
+      "menuName": "vydokh",
+      "caption": "Vydokh",
+      "title": "Vydokh",
+      "children": [
+        {
+          "link": "i-i-s-vydokh-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-vydokh-отпуск-l",
+          "menuName": null,
+          "caption": "Отпуск",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-vydokh-материал-l",
+          "menuName": null,
+          "caption": "Материал",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

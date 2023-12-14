@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-vydokh-сотрудники-e",
+  "editForm": "i-i-s-vydokh-сотрудники-e",
+  "external": false,
+  "caption": "Сотрудники",
+  "name": "IISVydokhСотрудникиL",
+  "className": "СотрудникиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-vydokh-сотрудники",
+      "modelProjection": "СотрудникиL"
+    }
+  ]
+}

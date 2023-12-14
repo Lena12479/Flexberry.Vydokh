@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISVydokhЗаказ",
+  "modelName": "i-i-s-vydokh-заказ",
+  "className": "Заказ",
+  "nameSpace": "IIS.Vydokh",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "фИОзаказа",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "материал",
+      "relatedTo": "i-i-s-vydokh-материал",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "отпуск",
+      "relatedTo": "i-i-s-vydokh-отпуск",
+      "inverse": "заказ"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЗаказE",
+      "modelName": "i-i-s-vydokh-заказ",
+      "attrs": [
+        {
+          "name": "фИОзаказа",
+          "caption": "Ф и озаказа",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Имя",
+          "lookupValueField": "имя",
+          "relationName": "Материал",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имя",
+              "caption": "Материал",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Материал",
+          "name": "материал",
+          "relatedTo": "i-i-s-vydokh-материал",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

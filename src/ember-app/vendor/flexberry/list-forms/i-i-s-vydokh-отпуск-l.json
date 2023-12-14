@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-vydokh-отпуск-e",
+  "editForm": "i-i-s-vydokh-отпуск-e",
+  "external": false,
+  "caption": "Отпуск",
+  "name": "IISVydokhОтпускL",
+  "className": "ОтпускL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-vydokh-отпуск",
+      "modelProjection": "ОтпускL"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотрудники",
+      "projection": "СотрудникиL",
+      "detailModelName": null
+    },
+    {
+      "master": "материал",
+      "displayAttributeName": "имя",
+      "required": true,
+      "relationName": "Заказ.Материал",
+      "projection": "МатериалL",
+      "detailModelName": "i-i-s-vydokh-заказ"
+    }
+  ],
+  "external": false,
+  "caption": "Отпуск",
+  "name": "IISVydokhОтпускE",
+  "className": "ОтпускE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-vydokh-отпуск",
+      "modelProjection": "ОтпускE"
+    }
+  ]
+}
